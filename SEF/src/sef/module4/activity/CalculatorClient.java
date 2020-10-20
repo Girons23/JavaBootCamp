@@ -19,7 +19,7 @@ public class CalculatorClient {
 		System.out.println("*** Calculations will be performed using "+normalCalc.getCalculatorType()+ " calculator ***");
 		
 		// Add 
-		int result = normalCalc.add(4, 5);
+		int result = normalCalc.add (4, 5);
 		System.out.println("1) Add result is " + result);
 		
 				

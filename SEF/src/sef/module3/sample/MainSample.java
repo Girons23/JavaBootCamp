@@ -14,6 +14,10 @@ public class MainSample {
 
 	public static void main(String[] args) {
 		//	This line prints out the String 'Hello World!' in the console
+/*	asd
+	test
+	dsa
+	*/
 		System.out.println( "Welcome to Java!");
 		
 	}

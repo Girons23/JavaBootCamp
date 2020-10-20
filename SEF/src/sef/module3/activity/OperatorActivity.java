@@ -14,19 +14,17 @@ public class OperatorActivity {
 		// Declare numbers to be operated
 		int i = 8;
 		int j = 5;
+		int result;
 		
-		// Subtract numbers
-		int result = i-j;
+		if (i <= 8 ) { 
+			result = i-j;
+			System.out.println("Difference = " + result);
+		}else {
+			result = i+j;
+			System.out.println("Sum = " + result);
+	
 		
-		// Print result
-		System.out.println("Difference = " + result);
-		
-		// Add numbers
-		
-		
-		// Print result
-		
-		
-	}
 
+	}
+	}
 }
