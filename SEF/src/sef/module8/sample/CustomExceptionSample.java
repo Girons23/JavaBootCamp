@@ -6,6 +6,7 @@ public class CustomExceptionSample {
 	public static void setAge(int age) throws CustomException{
 		//1 - Check if age<0. if yes, then throw CustomException
 		if(age<0)
+		
 		{
 			//Creating and throwing an instance of CustomException
 			//this ensures that CustomException is thrown
@@ -24,7 +25,10 @@ public class CustomExceptionSample {
 			System.out.println(c.getMessage());
 			// TODO: handle exception
 		}
-			
+			catch (Exception e){
+				e.getMessage();
+			}
+			}
 		
 	}
-}
+

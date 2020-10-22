@@ -18,5 +18,6 @@ public class ArrayExceptionSample {
 		// The above loop is a logical error in the program which results in
 		// ArrayIndexOutOfBoundsException. This is an example of Unchecked Exception.
 		
+		
 	}
 }

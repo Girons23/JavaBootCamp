@@ -9,6 +9,7 @@ public class CustomException extends Exception{
 		return "This is my custom Exception";
 	}
 	
+	
 
 	//You can also write more information about this exception in getMessage()
 	//2 - Override getMessage()

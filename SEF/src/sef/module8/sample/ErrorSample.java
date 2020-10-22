@@ -14,6 +14,7 @@ public class ErrorSample {
 		
 	}
 	
+	
 	//Below method calls itself and
 	//it happens infinite times because there is no exit condition
 	//At one point in time, JVM would give up and show StackOverflowError
