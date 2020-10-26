@@ -1,34 +1,21 @@
-/**
- * 
- */
-package sef.module4.activity;
+package sef.FinalTask;
 
-/**
- * @author 
- *
- */
+public class SecondActivity {
 
-
-public class Calculator {
-
-	
 	private String calculatorType;
 	public static final String CALC_TYPE_BASIC = "Basic";
 	
-	// Default constructor
-	public Calculator() {}
 	
-	// Parameterized constructor
-	public Calculator(String calculatorType) {
+	public void Calculator() {}
+	
+	public void Calculator(String calculatorType) {
 		this.calculatorType = calculatorType;
 	}
 
-	// Getter for CalculatorType
 	public String getCalculatorType() {
 		return calculatorType;
 	}
 
-	// Setter for CalculatorType
 	public void setCalculatorType(String calculatorType) {
 		this.calculatorType = calculatorType;
 	}

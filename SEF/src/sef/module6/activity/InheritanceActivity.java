@@ -25,6 +25,7 @@ public class InheritanceActivity {
 		
 		
 		
+		
 		// Print Info using Employee object
 		System.out.println("-----------------------------");
 		System.out.println("Employee's Name is   : " + e.getName());

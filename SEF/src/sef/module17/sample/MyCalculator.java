@@ -19,3 +19,4 @@ class MyCalculator {
 		return a / b;
 	}
 }
+

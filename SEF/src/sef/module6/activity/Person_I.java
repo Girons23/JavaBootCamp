@@ -9,12 +9,14 @@ public class Person_I {
 	private String name;
 	private int age;
 	
+	
 	//Behavior - write default constructor. Print 'I'm Person_I constructor'
 	public Person_I(){
 		this.name="Unknown";
 		this.age = 0;
 		System.out.println("I'm Person_I constructor");
 	}
+	
 	//Behavior - write parameterized constructor
 		public Person_I(String name, int age){
 			this.name = name;
